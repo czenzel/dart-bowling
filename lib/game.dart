@@ -15,7 +15,7 @@ class Game {
   void calculatedAdd(String pins) {
     if (pins == "X") {
       add(10);
-    } else if (pins == "/") {
+    } else if (score > 0 && pins == "/") {
       add(10 - score);
     }
   }
