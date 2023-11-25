@@ -17,3 +17,7 @@ game.add(5);
 Check `test/game_test.dart` for more examples.
 
 This implementation is based on the book `Agile Principles, Patterns, and Practices in C#` by `Martin C. Robert, Martin Micah` 
+
+## Credits
+
+Credit goes to [https://github.com/castrors/bowling](https://github.com/castrors/bowling) for creating the original bowling command line script and library with Dart.
