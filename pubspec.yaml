@@ -1,6 +1,6 @@
 name: dartbowling
 description: An easy library to help aid in tracking bowling game scores with Flutter and Dart.
-version: 1.0.5
+version: 1.0.8
 homepage: https://github.com/czenzel/dart-bowling
 
 environment:
