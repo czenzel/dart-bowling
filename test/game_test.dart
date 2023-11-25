@@ -58,6 +58,24 @@ void main() {
     
   });
 
+  test('Test perfect game with calculatedAdd', () {
+    for (var i = 0; i < 12; i++) {
+      game.calculatedAdd("X");
+    }
+    expect(game.score, 300);
+  });
+
+  test('Test game starting with a spare with calculatedAdd', () {
+    game.add(5);
+    game.calculatedAdd("/");
+
+    for (var i = 0; i < 10; i++) {
+      game.calculatedAdd("X");
+    }
+
+    expect(game.score, 275);
+  });
+
   test('Test end of array', () {
     for (var i = 0; i < 9; i++) {
       game.add(0);

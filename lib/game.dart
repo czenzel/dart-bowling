@@ -12,6 +12,15 @@ class Game {
     _adjustCurrentFrame(pins);
   }
 
+  void calculatedAdd(String pins) {
+    if (pins == "X") {
+      add(10);
+    }
+    else if (pins == "/") {
+      add(10 - score);
+    }
+  }
+
   void _adjustCurrentFrame(int pins) {
     if (_lastBallInFrame(pins)) {
       _advanceFrame();

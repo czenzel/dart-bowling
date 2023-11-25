@@ -12,6 +12,10 @@ game.add(3);
 // another example of frame
 game.add(2);
 game.add(5);
+
+// example of a calculated add - added by @czenzel
+game.calculatedAdd("X");
+game.calculatedAdd("/");
 ```
 
 Check `test/game_test.dart` for more examples.
