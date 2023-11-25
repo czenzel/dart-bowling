@@ -25,6 +25,10 @@ class Game {
       _advanceFrame();
     } else {
       _isFirstThrow = false;
+
+      if (!_isFirstThrow && _currentFrame < 10) {
+        _advanceFrame();
+      }
     }
   }
 
