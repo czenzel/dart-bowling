@@ -29,7 +29,6 @@ void main() {
     game.add(7);
     game.add(3);
     expect(game.scoreForFrame(1), 13);
-    
   });
 
   test('Test simple frame after spare', () {
@@ -55,7 +54,6 @@ void main() {
       game.add(10);
     }
     expect(game.score, 300);
-    
   });
 
   test('Test perfect game with calculatedAdd', () {
