@@ -1,4 +1,4 @@
-import 'package:bowling/game.dart';
+import 'package:dartbowling/game.dart';
 import 'package:test/test.dart';
 
 void main() {
